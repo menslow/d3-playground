@@ -1,0 +1,86 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+
+    </header>
+    
+    <div id="main">
+      <h1>Bar Chart SVG</h1>
+    </div>
+
+    <svg class="chart"></svg>
+
+    <!-- Renderred SVG will look like this: -->
+
+    <!--  
+      Quick rule of thumb is that geometry (such as the width of a rect element) must be specified as attributes, 
+      while aesthetics (such as a fill color) can be specified as styles.
+    -->
+    <!--svg class="chart" width="420" height="120">
+      <g transform="translate(0,0)">
+        <rect width="40" height="19"></rect>
+        <text x="37" y="9.5" dy=".35em">4</text>
+      </g>
+      <g transform="translate(0,20)">
+        <rect width="80" height="19"></rect>
+        <text x="77" y="9.5" dy=".35em">8</text>
+      </g>
+      <g transform="translate(0,40)">
+        <rect width="150" height="19"></rect>
+        <text x="147" y="9.5" dy=".35em">15</text>
+      </g>
+      <g transform="translate(0,60)">
+        <rect width="160" height="19"></rect>
+        <text x="157" y="9.5" dy=".35em">16</text>
+      </g>
+      <g transform="translate(0,80)">
+        <rect width="230" height="19"></rect>
+        <text x="227" y="9.5" dy=".35em">23</text>
+      </g>
+      <g transform="translate(0,100)">
+        <rect width="420" height="19"></rect>
+        <text x="417" y="9.5" dy=".35em">42</text>
+      </g>
+    </svg-->
+
+
+    <footer>
+
+    </footer>
+  </div> <!-- end of #container -->
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+  <script>!window.jQuery && document.write(unescape('?script src="js/libs/jquery-1.4.2.js"??/script?'))</script>
+
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="assets/js/components/graphs/BarChartSVG.js" charset="utf-8"></script>
+
+  <script src="assets/js/application.js"></script><!-- Main JS Application -->
+
+</body>
+</html>
