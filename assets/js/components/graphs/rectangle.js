@@ -65,6 +65,7 @@ var Rectangle = function(){
         text(function(datum) { return datum.books;}).
         attr("fill", "white");
 
+      // X Axis
       barDemo.selectAll("text.yAxis").
         data(data).
         enter().
